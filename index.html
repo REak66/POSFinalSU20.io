@@ -14,6 +14,186 @@
 </head>
 <body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
   <div class="app-wrapper">
+    <nav class="app-header navbar navbar-expand bg-body">
+      <!--begin::Container-->
+      <div class="container-fluid">
+        <!--begin::Start Navbar Links-->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-lte-toggle="sidebar" href="#" role="button">
+              <i class="bi bi-list">Menu</i>
+            </a>
+          </li>
+        </ul>
+        <!--end::Start Navbar Links-->
+        <!--begin::End Navbar Links-->
+        <ul class="navbar-nav ms-auto">
+          <!--begin::Messages Dropdown Menu-->
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-bs-toggle="dropdown" href="#">
+              <i class="bi bi-chat-text"></i>
+              <span class="navbar-badge badge text-bg-danger">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+              <a href="#" class="dropdown-item">
+                <!--begin::Message-->
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <img
+                      src="tra.JPG"
+                      alt="User Avatar"
+                      class="img-size-50 rounded-circle me-3"
+                    />
+                  </div>
+                  <div class="flex-grow-1">
+                    <h3 class="dropdown-item-title">
+                      CheTra
+                      <span class="float-end fs-7 text-danger"
+                        ><i class="bi bi-star-fill"></i
+                      ></span>
+                    </h3>
+                    <p class="fs-7">Call me whenever you can...</p>
+                    <p class="fs-7 text-secondary">
+                      <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
+                    </p>
+                  </div>
+                </div>
+                <!--end::Message-->
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <!--begin::Message-->
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <img
+                      src="ratana.JPG"
+                      alt="User Avatar"
+                      class="img-size-50 rounded-circle me-3"
+                    />
+                  </div>
+                  <div class="flex-grow-1">
+                    <h3 class="dropdown-item-title">
+                      Ratana
+                      <span class="float-end fs-7 text-secondary">
+                        <i class="bi bi-star-fill"></i>
+                      </span>
+                    </h3>
+                    <p class="fs-7">I got your message bro</p>
+                    <p class="fs-7 text-secondary">
+                      <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
+                    </p>
+                  </div>
+                </div>
+                <!--end::Message-->
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <!--begin::Message-->
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <img
+                      src="deth.JPG"
+                      alt="User Avatar"
+                      class="img-size-50 rounded-circle me-3"
+                    />
+                  </div>
+                  <div class="flex-grow-1">
+                    <h3 class="dropdown-item-title">
+                      Deth
+                      <span class="float-end fs-7 text-warning">
+                        <i class="bi bi-star-fill"></i>
+                      </span>
+                    </h3>
+                    <p class="fs-7">Testing</p>
+                    <p class="fs-7 text-secondary">
+                      <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
+                    </p>
+                  </div>
+                </div>
+                <!--end::Message-->
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+            </div>
+          </li>
+          <!--end::Messages Dropdown Menu-->
+          <!--begin::Notifications Dropdown Menu-->
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-bs-toggle="dropdown" href="#">
+              <i class="bi bi-bell-fill"></i>
+              <span class="navbar-badge badge text-bg-warning">15</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+              <span class="dropdown-item dropdown-header">15 Notifications</span>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="bi bi-envelope me-2"></i> 4 new messages
+                <span class="float-end text-secondary fs-7">3 mins</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="bi bi-people-fill me-2"></i> 8 friend requests
+                <span class="float-end text-secondary fs-7">12 hours</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="bi bi-file-earmark-fill me-2"></i> 3 new reports
+                <span class="float-end text-secondary fs-7">2 days</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item dropdown-footer"> See All Notifications </a>
+            </div>
+          </li>
+          <!--end::Notifications Dropdown Menu-->
+          <!--begin::Fullscreen Toggle-->
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-lte-toggle="fullscreen">
+              <i data-lte-icon="maximize" class="bi bi-arrows-fullscreen"></i>
+              <i data-lte-icon="minimize" class="bi bi-fullscreen-exit" style="display: none"></i>
+            </a>
+          </li>
+          <!--end::Fullscreen Toggle-->
+          <!--begin::User Menu Dropdown-->
+          <li class="nav-item dropdown user-menu">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+              <img
+                src="profileVireak.JPG"
+                class="user-image rounded-circle shadow"
+                alt="User Image"
+                style="height: 40px; width: 40px;"
+              />
+              <span class="d-none d-md-inline">Thary Vireak</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+              <!--begin::User Image-->
+              <li class="user-header text-bg-primary">
+                <img
+                  src="profileVireak.JPG"
+                  class="rounded-circle shadow"
+                  alt="User Image"
+                />
+                <p>
+                  Thary Vireak - Web Developer
+                  <small>SETEC INSTITUTE</small>
+                </p>
+              </li>
+              <!--end::User Image-->
+              <!--begin::Menu Body-->
+              <!--end::Menu Body-->
+              <!--begin::Menu Footer-->
+              <li class="user-footer">
+                <a href="#" class="btn btn-default btn-flat">Profile</a>
+                <a href="#" class="btn btn-default btn-flat float-end">Sign out</a>
+              </li>
+              <!--end::Menu Footer-->
+            </ul>
+          </li>
+          <!--end::User Menu Dropdown-->
+        </ul>
+        <!--end::End Navbar Links-->
+      </div>
+      <!--end::Container-->
+    </nav>
     <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
       <div class="sidebar-brand">
         <a href="index.html" class="brand-link">
@@ -125,18 +305,39 @@
             <li class="nav-item">
               <a href="#" class="nav-link" onclick="showSection('sitting')">
                 <i class="nav-icon bi bi-gear-fill"></i>
-                <p>Sitting</p>
+                <p>Setting</p>
               </a>
             </li>
           </ul>
         </nav>
       </div>
     </aside>
-
     <main class="app-main">
-
+      <!-- <div class="app-content-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6"> 
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" data-lte-toggle="sidebar" href="#" role="button">
+                    <i class="bi bi-list" style="width: auto; height: 60px;" >  Menu</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-end">
+                <li class="breadcrumb-item"><a href="#">Thary Vireak</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      
       <!-- DASHBOARD SECTION -->
-      <div class="app-content" id="dashboard" style="display:block; margin-top: 30px;" >
+      <div class="app-content" id="dashboard" style="display:block;" >
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-3 col-6">
@@ -250,7 +451,7 @@
       <!-- END DASHBOARD SECTION -->
 
       <!-- ADD PRODUCT SECTION -->
-      <div class="app-content" id="addProduct" style="display:none; margin-top: 30px;">
+      <div class="app-content" id="addProduct" style="display:none;">
         <div class="container-fluid">
           <h2>Add Product</h2>
           <input type="hidden" id="editProductIndex" value="-1" />
@@ -285,7 +486,7 @@
       <!-- END ADD PRODUCT SECTION -->
 
       <!-- LIST PRODUCT SECTION -->
-      <div class="app-content" id="listProduct" style="display:none; margin-top: 30px;">
+      <div class="app-content" id="listProduct" style="display:none;">
         <div class="container-fluid">
           <h2>Product List</h2>
           <table class="table table-bordered table-striped" id="productTable2">
@@ -307,7 +508,7 @@
       <!-- END LIST PRODUCT SECTION -->
 
       <!-- ADD CATEGORY SECTION -->
-      <div class="app-content" id="addCategory" style="display:none; margin-top: 30px;">
+      <div class="app-content" id="addCategory" style="display:none;">
         <div class="container-fluid">
           <h2>Add Category</h2>
           <input type="hidden" id="editCategoryIndex" value="-1" />
@@ -332,7 +533,7 @@
       <!-- END ADD CATEGORY SECTION -->
 
       <!-- LIST CATEGORY SECTION -->
-      <div class="app-content" id="listCategory" style="display:none; margin-top: 30px;">
+      <div class="app-content" id="listCategory" style="display:none;">
         <div class="container-fluid">
           <h2>Category List</h2>
           <table class="table table-bordered table-striped" id="categoryTable2">
@@ -350,7 +551,7 @@
       <!-- END LIST CATEGORY SECTION -->
 
       <!-- ADD ORDER SECTION -->
-      <div class="app-content" id="addOrder" style="display:none; margin-top: 30px;">
+      <div class="app-content" id="addOrder" style="display:none;">
         <div class="container-fluid">
           <h2>Add Order</h2>
           <input type="hidden" id="editOrderIndex" value="-1" />
@@ -383,7 +584,7 @@
       <!-- END ADD ORDER SECTION -->
 
       <!-- LIST ORDER SECTION -->
-      <div class="app-content" id="listOrders" style="display:none; margin-top: 30px;">
+      <div class="app-content" id="listOrders" style="display:none;">
         <div class="container-fluid">
           <h2>Order List</h2>
           <table class="table table-bordered table-striped" id="orderTable2">
@@ -404,7 +605,7 @@
       <!-- END LIST ORDER SECTION -->
 
       <!-- ADD USER SECTION -->
-      <div class="app-content" id="addUser" style="display:none; margin-top: 30px;">
+      <div class="app-content" id="addUser" style="display:none;">
         <div class="container-fluid">
           <h2>Add User</h2>
           <input type="hidden" id="editUserIndex" value="-1" />
@@ -412,7 +613,7 @@
             <input type="text" id="userName" class="form-control mb-2" placeholder="User Name" required>
             <input type="email" id="userEmail" class="form-control mb-2" placeholder="Email" required>
             <input type="text" id="userPhone" class="form-control mb-2" placeholder="Phone">
-            <button type="submit" class="btn btn-primary" id="userBtn">Save User</button>
+            <button type="submit" class="btn btn-primary" id="userBtn">Add User</button>
           </form>
 
           <h3 class="mt-4">List Users</h3>
@@ -433,7 +634,7 @@
       <!-- END ADD USER SECTION -->
 
       <!-- LIST USER SECTION -->
-      <div class="app-content" id="listUsers" style="display:none; margin-top: 30px;">
+      <div class="app-content" id="listUsers" style="display:none;">
         <div class="container-fluid">
           <h2>User List</h2>
           <table class="table table-bordered table-striped" id="userTable2">
@@ -453,9 +654,9 @@
       <!-- END LIST USER SECTION -->
 
       <!-- SITTING SECTION -->
-      <div class="app-content" id="sitting" style="display:none; margin-top: 30px;">
+      <div class="app-content" id="sitting" style="display:none;">
         <div class="container-fluid">
-          <h2>Sitting</h2>
+          <h2>Setting</h2>
           <p>Some setting here...</p>
         </div>
       </div>
