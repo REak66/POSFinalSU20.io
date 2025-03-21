@@ -3133,6 +3133,7 @@ textarea.form-control-lg {
 }
 
 .btn-warning {
+    width: 100px;
   --bs-btn-color: #000;
   --bs-btn-bg: #ffc107;
   --bs-btn-border-color: #ffc107;
@@ -3150,6 +3151,7 @@ textarea.form-control-lg {
 }
 
 .btn-danger {
+    width: 100px;
   --bs-btn-color: #fff;
   --bs-btn-bg: #dc3545;
   --bs-btn-border-color: #dc3545;
